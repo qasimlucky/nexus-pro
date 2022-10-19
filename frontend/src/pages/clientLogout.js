@@ -4,7 +4,6 @@ import { useLocation,useHistory } from 'react-router-dom';
 import axios, { Axios } from "axios";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
-import AdminSidebar from "./adminSideBar";
 function ClientLogoutForm (){
     function submit(e){
         axios.post("web/logout").then(Response =>{
